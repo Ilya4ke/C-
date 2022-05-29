@@ -9,36 +9,36 @@
 
 Console.Write("Введите номер дня недели: ");
 int daynumber = int.Parse (Console.ReadLine());
-while (daynumber <= 7)
-    if (daynumber == 1)
-    {
-        Console.Write("Понедельник");
-    }
-    else if (daynumber == 2)
-    {
-        Console.Write("Вторник");
-    }
-    else if (daynumber == 3)
-    {
-        Console.Write("Среда");
-    }
-    else if (daynumber == 4)
-    {
-        Console.Write("Четверг");
-    }
-    else if (daynumber == 5)
-    {
-        Console.Write("Пятница");
-    }
-    else if (daynumber == 6)
-    {
-        Console.Write("Суббота");
-    }
-    else if (daynumber == 7)
-    {
-        Console.Write("Воскресенье");
-    }
-if (daynumber > 7);
+
+if (daynumber == 1)
+{
+    Console.Write("Понедельник");
+}
+else if (daynumber == 2)
+{
+    Console.Write("Вторник");
+}
+else if (daynumber == 3)
+{
+    Console.Write("Среда");
+}
+else if (daynumber == 4)
+{
+    Console.Write("Четверг");
+}
+else if (daynumber == 5)
+{
+    Console.Write("Пятница");
+}
+else if (daynumber == 6)
+{
+    Console.Write("Суббота");
+}
+else if (daynumber == 7)
+{
+    Console.Write("Воскресенье");
+}
+else
 {
     Console.Write("В неделе всего 7 дней :)");
 }
