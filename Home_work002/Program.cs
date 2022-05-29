@@ -18,23 +18,23 @@ while (daynumber <= 7)
     {
         Console.Write("Вторник");
     }
-        else if (daynumber == 3)
+    else if (daynumber == 3)
     {
         Console.Write("Среда");
     }
-        else if (daynumber == 4)
+    else if (daynumber == 4)
     {
         Console.Write("Четверг");
     }
-        else if (daynumber == 5)
+    else if (daynumber == 5)
     {
         Console.Write("Пятница");
     }
-        else if (daynumber == 6)
+    else if (daynumber == 6)
     {
         Console.Write("Суббота");
     }
-        else if (daynumber == 7)
+    else if (daynumber == 7)
     {
         Console.Write("Воскресенье");
     }
