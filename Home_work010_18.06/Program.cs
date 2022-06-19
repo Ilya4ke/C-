@@ -8,15 +8,28 @@ Console.Write ("Введите число - ");
 int number = int.Parse(Console.ReadLine());
 number = Math.Abs(number);
 
+//Решение через массив
 if (number < 100)
 {
     Console.WriteLine ("Третьей цифры нет");
 }
 else
-{
-    while (number > 999)
-    {
-        number = number / 10;
-    }
-  Console.WriteLine(number % 10);
-} 
+{ 
+    string numberA = number.ToString();
+    Console.WriteLine(numberA[2]);
+}
+
+// if (number < 100)
+// {
+//     Console.WriteLine ("Третьей цифры нет");
+// }
+// else
+// {
+//     while (number > 999)
+//     {
+//         number = number / 10;
+//     }
+//   Console.WriteLine(number % 10);
+// } 
+
+
