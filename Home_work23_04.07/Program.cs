@@ -24,22 +24,22 @@ int x = Convert.ToInt32(Console.ReadLine());
 
 for (int i = 0; i < matrix.GetLength(0); i++)
 {
-    if (i == y)
+    if (i == y-1)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            if (j == x)
+            if (j == x-1)
             {
                 Console.Write($"На позиции ({y};{x}) находится число {matrix[i, j]} ");
             }
-            else if (x > matrix.GetLength(1))
+            else if (x-1 >= matrix.GetLength(1))
             {
                 Console.Write("Координаты превышают размер массива ");
                 break;
             }
         }
     }
-    else if (y > matrix.GetLength(0))
+    else if (y-1 >= matrix.GetLength(0))
     {
         Console.Write("Координаты превышают размер массива ");
         break;
